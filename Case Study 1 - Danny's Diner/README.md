@@ -18,7 +18,7 @@ You can inspect the entity relationship diagram and example data below.
 
 ![Danny's Diner Entity Relationship Diagram](../images/Danny's%20Diner.png)
 
-## Case Study Questions
+## [Solutions](solution.sql) of Case Study Questions
 
 ### 1. What is the total amount each customer spent at the restaurant?
 
@@ -38,6 +38,19 @@ select
 from sales
 left join menu
 	on menu.product_id = sales.product_id
+group by sales.customer_id
+;
+```
+
+### 2. How many days has each customer visited the restaurant?
+
+To get the number of days each customer visited the restaurant, we get the sale date from the `sales` table, and count the number of distinct date (because a customer can visit the restaurant multiple times a day) for each customer.
+
+```sql
+select
+    sales.customer_id
+    , count(distinct sales.order_date) as number_of_dates
+from sales
 group by sales.customer_id
 ;
 ```
