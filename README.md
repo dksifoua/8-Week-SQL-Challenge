@@ -1,6 +1,12 @@
 # 8-Week-SQL-Challenge
 
-This repo contains my solutions to the eight-week SQL challenge case studies from https://8weeksqlchallenge.com/.
+This repository showcases comprehensive solutions to
+the [#8WeekSQLChallenge](https://8weeksqlchallenge.com/) created
+by [Danny Ma](https://www.linkedin.com/in/datawithdanny/), demonstrating proficiency in essential SQL skills required
+for data analyst and analytics engineer roles. Through eight distinct case studies, I have applied advanced SQL
+techniques to solve real-world business problems.
+
+## Case Studies
 
 Here is the link to each case study
 
@@ -57,3 +63,92 @@ This project uses Docker Compose to set up a PostgreSQL database and pgAdmin for
 ```bash
 docker compose down -v
 ```
+
+## SQL Skills Demonstrated
+
+This repository serves as evidence of my expertise in the following industry-standard SQL competencies:
+
+**Query Fundamentals & Data Retrieval**
+
+- Complex `SELECT` statements with multiple conditions
+- Advanced filtering using `WHERE`, `HAVING`, and conditional logic
+- Data sorting and limiting with `ORDER BY` and `LIMIT`
+
+**Join Operations & Table Relationships**
+
+- `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, and `FULL OUTER JOIN`
+- Multi-table joins across 3+ tables
+- Self-joins for hierarchical data analysis
+
+**Aggregation & Grouping**
+
+- Aggregate functions: `SUM()`, `COUNT()`, `AVG()`, `MIN()`, `MAX()`
+- `GROUP BY` with multiple dimensions
+- `HAVING` clause for filtered aggregations
+- `DISTINCT` for unique value analysis
+
+**Window Functions & Analytics**
+
+- Ranking functions: `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`
+- Partitioning with `PARTITION BY`
+- Running totals and moving averages
+- Lead and lag functions for time-series analysis
+
+**Common Table Expressions (CTEs)**
+
+- Recursive and non-recursive CTEs
+- Multiple CTEs for complex query logic
+- CTEs for improved query readability and maintenance
+
+**Date & Time Operations**
+
+- Date arithmetic and interval calculations
+- `BETWEEN` for date range filtering
+- Date formatting and extraction functions
+- Time-based aggregations and trending
+
+**Conditional Logic & Data Transformation**
+
+- `CASE` statements for business rule implementation
+- Conditional aggregations
+- Data type conversions and casting
+- String manipulation and pattern matching
+
+**Subqueries & Nested Queries**
+
+- Correlated and non-correlated subqueries
+- Subqueries in `SELECT`, `FROM`, and `WHERE` clauses
+- `EXISTS` and `IN` operators
+
+**Data Definition & Manipulation**
+
+- Table creation with appropriate data types
+- `NULL` handling and coalescing
+- Data integrity and constraint management
+
+**Query Optimization & Performance**
+
+- Writing efficient queries
+- Understanding query execution order
+- Index-aware query design
+
+### Real-World Applications
+
+Each case study in this repository mirrors actual business scenarios encountered in data analyst roles, including:
+
+- Customer behavior analysis and segmentation
+- Sales performance metrics and KPIs
+- Subscription and retention analytics
+- Financial reporting and calculations
+- Product popularity and inventory insights
+- Marketing campaign effectiveness
+- Loyalty program analysis
+
+Through these challenges, I have developed the ability to translate business questions into SQL queries, perform
+exploratory data analysis, and generate actionable insights from raw data—core competencies required in modern
+data-driven organizations.
+
+# Author
+
+- [@dksifoua](https://linkedin.com/in/dksifoua)
+
